@@ -1,0 +1,272 @@
+/*********** starting the constant *************/ 
+@font-face {
+    font-family: "Droid Arabic Kufi";
+    src: url(../fonts/DroidArabicKufiRegular.ttf);
+}
+@font-face {
+    font-family: "Cairo-SemiBold";
+    src: url(../fonts/Cairo-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+body
+{
+    font-family:  "Cairo-SemiBold";
+    direction: rtl;
+}
+/* **************************************** */
+/* **************************************** */
+/* **************************************** */
+/* ***************Start title************** */
+.title > .under {
+    right: -15px;
+}
+/* Responsive */
+@media (max-width: 1199px) {
+    .title > .under {
+        right: -14px;
+    }      
+}
+@media (max-width: 991px) {
+    .title > .under {
+        right: -13px;
+    }
+}
+@media (max-width: 767px) {
+    .title > .under {
+        right: -12px;
+    }
+}
+@media (max-width: 575px) {
+    .title > .under {
+        right: -6px;
+    }
+}
+/* ***************Start title************** */
+/* **************************************** */
+/* **************************************** */
+/* **************************************** */
+/* **************Start nav***************** */
+nav .bars > span:nth-child(2){
+    right: -4px;
+}
+/* Responsive */
+@media (max-width: 767px) {
+    nav .logo {
+        text-align: left;
+    }
+    nav .inside-links {
+        left: 0;
+        right: -324px;
+        border-radius: 15px 0 15px 15px;
+    }
+}
+@media (max-width: 767px) {
+    nav .inside-links {
+        left: 0;
+        right: -324px;
+    }
+}
+@media (max-width: 575px) {
+    nav .inside-links {
+        left: 0;
+        right: -310px;
+    }
+}
+@media (max-width: 500px) {
+    nav .inside-links {
+        left: 0;
+        right: -280px;
+    }
+}
+@media (max-width: 475px) {
+    nav .inside-links {
+        left: 0;
+        right: -245px;
+    }
+}
+@media (max-width: 440px) {
+    nav .inside-links {
+        left: 0;
+        right: -225px;
+    }
+}
+@media (max-width: 411px) {
+    nav .inside-links {
+        left: 0;
+        right: -175px;
+    }
+}
+@media (max-width: 360px) {
+    nav .inside-links {
+        left: 0;
+        right: -140px;
+    }
+}
+/* ************** End nav ***************** */
+/* **************************************** */
+/* **************************************** */
+/* **************************************** */
+/* ***************Start inro*************** */
+.intro .slide .carousel-inner .carousel-item .carousel-caption > h1 {
+	font-size: 60px;
+    font-weight: bold;
+    font-family: 'Roboto-Regular';
+}
+.intro .slide .carousel-inner .carousel-item .carousel-caption > h5 {
+    font-size: 30px;
+}
+.intro .slide .carousel-inner .carousel-item .carousel-caption > h2 {
+    font-size: 38px;
+}
+/* Responsive */
+@media (max-width: 1199px) {
+    .intro .slide .carousel-inner .carousel-item .carousel-caption > h1 {
+        font-size: 55px;
+    }
+    .intro .slide .carousel-inner .carousel-item .carousel-caption > h5 {
+        font-size: 27px;
+    }
+    .intro .slide .carousel-inner .carousel-item .carousel-caption > h2 {
+        font-size: 35px;
+    }      
+}
+@media (max-width: 991px) {
+    .intro .slide .carousel-inner .carousel-item .carousel-caption > h1 {
+        font-size: 45px;
+    }
+    .intro .slide .carousel-inner .carousel-item .carousel-caption > h5 {
+        font-size: 25px;
+    }
+    .intro .slide .carousel-inner .carousel-item .carousel-caption > h2 {
+        font-size: 30px;
+    }
+}
+@media (max-width: 767px) {
+    .intro .slide .carousel-inner .carousel-item .carousel-caption > h1 {
+        font-size: 40px;
+    }
+    .intro .slide .carousel-inner .carousel-item .carousel-caption > h5 {
+        font-size: 22px;
+    }
+    .intro .slide .carousel-inner .carousel-item .carousel-caption > h2 {
+        font-size: 25px;
+    }  
+}
+@media (max-width: 575px) {
+    .intro .slide .carousel-inner .carousel-item .carousel-caption > h1 {
+        font-size: 28px;
+    }
+    .intro .slide .carousel-inner .carousel-item .carousel-caption > h5 {
+        font-size: 15px;
+    }
+    .intro .slide .carousel-inner .carousel-item .carousel-caption > h2 {
+        font-size: 18px;
+    }  
+}
+/* ************** End inro **************** */
+/* **************************************** */
+/* **************************************** */
+/* **************************************** */
+/* **************Start about*************** */
+.about > .top-over > .container > .row > div > .info > p {
+    font-family: 'DroidArabicKufiRegular';
+}
+.about > .top-over > .container > .row > div > .info > h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #F0F8FF;
+}
+@media (max-width: 1199px) {
+    .about > .top-over > .container > .row > div > .info > h2 {
+        font-size: 27px;
+    }      
+}
+@media (max-width: 991px) {
+    .about > .top-over > .container > .row > div > .info > h2 {
+        font-size: 25px;
+    }
+}
+@media (max-width: 767px) {
+    .about > .top-over > .container > .row > div > .info > h2 {
+        font-size: 22px;
+    }  
+}
+@media (max-width: 575px) {
+    .about > .top-over > .container > .row > div > .info > h2 {
+        font-size: 20px;
+    }
+}
+/* ************** End about *************** */
+/* **************************************** */
+/* **************************************** */
+/* **************************************** */
+/* *************Start feature************** */
+.feature {
+    font-family:  "Cairo-SemiBold";
+}
+.feature > .top-over > .container > .info > h2 {
+    font-size: 40px;
+}
+.feature > .top-over > .container > .row > div > .row > div > .info > h3 {
+    font-size: 25px;
+}
+.feature > .top-over > .container > .row > div > .row > div > .info > p{
+    font-weight: lighter;
+    font-family: 'DroidArabicKufiRegular';
+}
+/* Responsive */
+@media (max-width: 1199px) {
+    .feature > .top-over > .container > .info > h2 {
+        font-size: 37px;
+    }
+    .feature > .top-over > .container > .row > div > .row > div > .info > h3 {
+        font-size: 22px;
+    }
+}
+@media (max-width: 991px) {
+    .feature > .top-over > .container > .info > h2 {
+        font-size: 34px;
+    }
+    .feature > .top-over > .container > .row > div > .row > div > .info > h3 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 575px) {
+    .feature > .top-over > .container > .info > h2 {
+        font-size: 26px;
+    }
+    .feature > .top-over > .container > .row > div > .row > div > .info > h3 {
+        font-size: 16px;
+    }
+}
+/* ************* End feature *************** */
+/* ***************************************** */
+/* ***************************************** */
+/* ***************************************** */
+/* *************Start our service*********** */
+.service > .top-over > .container > .full-width > .row > div > h2 {
+    font-weight: bold;
+    font-family: 'DroidArabicKufiRegular';
+    margin-bottom: 20px;
+}
+.service > .top-over > .container > .full-width > .row > div > .info > p {
+    font-family: 'DroidArabicKufiRegular';
+}
+/* Responsive */
+@media (max-width: 991px) {
+    .service > .top-over > .container > .full-width > .row > div > h2 {
+        margin-bottom: 18px;
+    }
+}
+@media (max-width: 575px) {
+    .service > .top-over > .container > .full-width > .row > div > h2 {
+        margin-bottom: 15px;
+    }
+}
+/* *********** End our service *************** */
+/* ******************************************* */
+/* ******************************************* */
+/* ******************************************* */
